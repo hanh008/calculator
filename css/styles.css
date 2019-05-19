@@ -5,3 +5,37 @@ add styling to calculator
 add styling to display 
 
 add styling to buttons */
+
+body {
+  background-color: rgba(255, 208, 0, 0.616);
+  background-size: cover;
+}
+
+
+.button {
+  color: blue;
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.wideButton {
+  width: 64px;
+}
+
+.tallButton {
+  height: 74px;
+  float: right;
+  margin-right: 120px;
+  margin-top: -30px;
+  margin-left: -200px;
+}
+
+.calculator {
+  width: 300px;
+  height: 320px;
+  background-color: rgb(178, 176, 176);
+  margin: 80px;
+  text-align: center;
+  position: relative;
+}
