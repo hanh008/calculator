@@ -22,37 +22,39 @@ assign functions to buttons -->
 </head>
 
 <body>
-  <div class="container calculator">
-    <h1>Calculator</h1>
-    <div>
-      display
-    </div>
-    <div>
-      <button class="button wideButton">AC</button>
-      <button class="button">/</button>
-      <button class="button">x</button>
-    </div>
-    <div>
-      <button class="button">7</button>
-      <button class="button">8</button>
-      <button class="button">9</button>
-      <button class="button">-</button>
-    </div>
-    <div>
-      <button class="button">4</button>
-      <button class="button">5</button>
-      <button class="button">6</button>
-    </div>
-    <div>
-      <button class="button">1</button>
-      <button class="button">2</button>
-      <button class="button">3</button>
-      <button class="tallButton">+</button>
-    </div>
-    <div>
-      <button class="button">0</button>
-      <button class="button">.</button>
-      <button class="button wideButton">=</button>
+  <div class="calculator">
+    <div class="calculator">
+      <p id="title">CALCULATOR</p>
+      <br>
+      <input class="input" type ="text" id ="display" value ="0" />
+      <div class="row">
+        <button id="AC" class="button wide" value="AC">AC</button>
+        <button id="/" class="button" value="/">÷</button>
+        <button id="x" class="button" value="x">x</button>
+      </div>
+      <div class="row">
+        <button id="7" class="button" value="7">7</button>
+        <button id="8" class="button" value="8">8</button>
+        <button id="9" class="button" value="9">9</button>
+        <button id="-" class="button" value="-">-</button>
+      </div>
+      <div class="row">
+        <button id="4" class="button" value="4">4</button>
+        <button id="5" class="button" value="5">5</button>
+        <button id="6" class="button" value="6">6</button>
+        <button id="+" class="tall button" value="+">+</button>
+      </div>
+      <div class="row">
+        <button id="1" class="button" value="1">1</button>
+        <button id="2" class="button" value="2">2</button>
+        <button id="3" class="button" value="3">3</button>
+        
+      </div>
+      <div class="row">
+        <button id="0" class="button" value="0">0</button>
+        <button id="." class="button" value=".">.</button>
+        <button id="=" class="button wide" value="=">=</button>
+      </div>
     </div>
   </div>
   <script type="text/javascript" src="js/index.js"></script>
